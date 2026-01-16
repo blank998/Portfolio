@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amir's - Portfolio</title>
+    <meta name="description" content="Someone is full stack developer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/skill.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
+      <div class="sidebar_content">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="hero">
+      <h1>
+        Hi! <br />
+        I am Someone <br />
+        I am a Developer
+      </h1>
+      <p>Electronics, Communication & Information Engineer</p>
+      <button>Contact Mee 📞</button>
+    </section>
+    <section id="about" class="section">
+      <p class="section_title" about me></p>
+      <p class="section_subtitle">who am i</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, neque
+        natus earum sunt ea perspiciatis libero odit soluta non animi velit
+        quisquam nam quasi explicabo temporibus vel veritatis optio porro. Lorem
+        ipsum dolor sit amet consectetur, adipisicing elit. Culpa, dicta dolore?
+        Temporibus eos facere omnis ex autem sunt, quasi nesciunt porro error
+        corrupti, asperiores enim voluptatum optio iusto maxime nostrum
+        distinctio magni. Cum delectus consectetur, doloremque ut esse neque
+        magni vel minus excepturi beatae, expedita aliquid recusandae quod
+        architecto ratione accusamus sunt! Voluptatum, deserunt sit modi
+        quisquam quas animi repellat totam amet. Unde id eveniet ipsum
+        consequuntur quidem soluta qui, possimus sed quos molestias officiis
+        hic. Mollitia animi numquam natus laboriosam, asperiores eum amet
+        quisquam, veniam, quo porro illo? Veritatis rerum obcaecati id, placeat
+        molestiae assumenda debitis eligendi. Molestias ipsum aut commodi!
+        Consequatur iste totam quis quaerat dignissimos laboriosam alias in
+        ipsam quibusdam tempore fugit autem veritatis tenetur iusto eligendi,
+        repellat laborum corrupti nisi facilis quo architecto! Explicabo quod,
+        non eos sequi est quo inventore quibusdam, sit possimus, animi sapiente
+        culpa molestias neque? Fugit rerum adipisci repellat alias corporis quod
+        aut aspernatur nulla assumenda saepe, voluptate cumque. Sunt, suscipit
+        debitis. Hic consequatur suscipit ducimus sunt quia quidem itaque
+        voluptas omnis beatae commodi sequi modi velit, error nemo voluptatibus
+        voluptatum ex consequuntur provident libero corrupti earum ipsa dolores
+        dignissimos perspiciatis? Similique, ducimus.
+      </p>
+      <div class="about_skills">
+        <div>
+          <i class="fa-solid fa-ear-listen"></i>
+          <h3>web development</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-globe"></i>
+          <h3>web Design</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h3>Machine Learning</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-mobile"></i>
+          <h3>Application</h3>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section">
+      <p class="section_title">My speciality</p>
+      <p class="section_subtitle">My skills</p>
+      <div class="outerbox">
+        <div class="skill_box">
+          <p>C</p>
+          <div class="skill_grey_box">
+            <div class="skill_color_box C">
+              <span>80%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>CSS</p>
+          <div class="skill_grey_box">
+            <div class="skill_color_box CSS">
+              <span>85%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>Java</p>
+          <div class="skill_grey_box">
+            <div class="skill_color_box Java">
+              <span>95%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>Javascript</p>
+          <div class="skill_grey_box">
+            <div class="skill_color_box Javascript">
+              <span>75%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill_box">
+          <p>HTML</p>
+          <div class="skill_grey_box">
+            <div class="skill_color_box HTML">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const hamburger = document.querySelector("#hamburger");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("sidebar_hamburger_translate");
+      });
+    </script>
+  </body>
+</html>
