@@ -18,7 +18,9 @@
   width: 300px;
   z-index: 5;
   height: 100vh;
-  background: #999;
+  /* translucent background + optional blur (glass effect) */
+  background: rgba(17, 17, 17, 0.6);
+
   transition-duration: 500ms;
   transform: translateX(-300px);
   display: flex;
@@ -31,6 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration-color: black;
 }
 
 .sidebar_hamburger_translate + .sidebar_content {
