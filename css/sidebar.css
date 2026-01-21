@@ -32,12 +32,6 @@
 .sidebar.open .sidebar_content {
   transform: translateX(0);
 }
-
-.sidebar.open + #hero {
-  transform: translateX(250px);
-  background-position: right bottom;
-  transition-duration: 5000ms ease in-out;
-}
 .sidebar_content ul {
   display: flex;
   flex-direction: column;
