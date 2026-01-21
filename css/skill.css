@@ -32,17 +32,17 @@
   background: red;
   width: 85%;
 }
-.Java {
+.Python {
   background: blue;
-  width: 95%;
+  width: 45%;
 }
-.Javascript {
+.Cpp {
   background: green;
   width: 75%;
 }
 .HTML {
   background: beige;
-  width: 70%;
+  width: 80%;
 }
 @media screen and (min-width: 768px) {
   .outerbox {
