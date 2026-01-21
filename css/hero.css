@@ -8,7 +8,7 @@
   background-image: url("../images/a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right bottom;
+  background-position: center;
   background-color: antiquewhite;
 }
 #hero > h1 {
